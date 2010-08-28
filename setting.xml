@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root background="bg.jpg" width="600" height="560">
+	<item img="1.png" posX="211" posY="378" scaleX="100" scaleY="100" rotation="-90" />
+	<item img="013.png" posX="249" posY="377" scaleX="10" scaleY="10" rotation="8" />
+	<item img="018.png" posX="182" posY="27" scaleX="10" scaleY="10" rotation="-7" />
+	<item trace="100.100,105.110,110.115;120.100,125.110,130.115;140.100,145.110,150.115;180.100,160.160,130.160,120.150,115.120" posX="164" posY="307" scaleX="100" scaleY="100" rotation="0" />
+	<item img="no-file.png" posX="0" posY="0" scaleX="100" scaleY="100" rotation="0" />
+</root>

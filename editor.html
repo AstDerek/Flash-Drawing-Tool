@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>editor</title>
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="interface.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="editor-container">
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="600" height="400" id="editor" align="middle">
+      <param name="allowScriptAccess" value="sameDomain" />
+      <param name="movie" value="editor.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="transparent" />
+      <embed src="editor.swf" quality="high" bgcolor="#009966" wmode="transparent" width="600" height="400" name="editor" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+    </object>
+  </div>
+  <div id="tabs-container">
+    <h2>Current&nbsp;Items</h2>
+    <div id="tabs-holder">
+    </div>
+  </div>
+  <div id="buttons-holder">
+      <div class="button-container"><button class="button" type="button" onclick="javascript:addTextLayer();">+ text layer</button></div>
+      <div class="button-container"><button class="button" type="button" onclick="javascript:addDrawLayer();">+ draw layer</button></div>
+      <div class="button-container"><button class="button" type="button" onclick="javascript:addImageLayer($('#imagePath').val());">+ image layer</button>
+        <input class="text-input" id="imagePath" type="text" />
+      </div>
+    </ul>
+  </div>
+</div>
+<div id="color-picker">
+  <div id="picker-picker"></div>
+  <div id="picker-hue"></div>
+  <div id="picker-sat"></div>
+  <div id="picker-val"></div>
+  <div id="picker-fields">Some text</div>
+  <div id="picker-color-cursor"></div>
+  <div id="picker-hue-cursor"></div>
+  <div id="picker-sat-cursor"></div>
+  <div id="picker-val-cursor"></div>
+</div>
+</body>
+</html>

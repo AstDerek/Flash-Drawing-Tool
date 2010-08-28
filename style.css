@@ -1,0 +1,139 @@
+* {
+  font-family:"Trebuchet MS","Lucida Grande",Helvetica,sans-serif;
+  text-align:left;
+}
+
+body {
+  text-align:center;
+  background:#DDEEF6 url(bg.gif) repeat-x;
+  margin:0;
+  padding:0;
+}
+
+#wrapper {
+  width:800px;
+  margin:1em auto 0 auto;
+  padding:1em;
+  background:#778899;
+}
+
+#editor-container {
+  float:left;
+}
+
+#tabs-container {
+  float:right;
+}
+
+#tabs-holder {
+  border:1px solid #ccc;
+  background:#ececec;
+  overflow:auto;
+  padding:1px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -moz-border-radius-bottomleft:5px;
+}
+
+#tabs-holder div {
+  border:1px solid #fff;
+  border-bottom:1px solid #bbb;
+  border-right:1px solid #bbb;
+  background:#e0e0e0;
+  padding:3px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -moz-border-radius-bottomleft:5px;
+}
+
+#tabs-holder div .remove {
+  display:block;
+  float:left;
+  background:url(x.png) no-repeat;
+  width:20px;
+  height:15px;
+  font-size:smaller;
+  margin:1px 4px 0 0;
+  outline:none;
+}
+
+#tabs-holder div .remove:hover {
+  background:url(xh.png) no-repeat;
+}
+
+.label, .label:hover, .label:visited {
+  font-size:smaller;
+  font-weight:normal;
+  text-decoration:none;
+  color:#333;
+}
+
+#buttons-holder {
+  clear:both;
+  padding-top:1em;
+}
+
+.button {
+  border:1px solid #fff;
+  border-right:1px solid #666;
+  border-bottom:1px solid #666;
+  background:#e0e0e0 url(button-bg.png) repeat-x;
+  text-align:center;
+  width:120px;
+  margin:3px;
+  padding:2px;
+  font-size:12px;
+  color:#000;
+  cursor:pointer;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -moz-border-radius-bottomleft:5px;
+  float:left;
+}
+
+.text-input {
+  float:left;
+  background:#fff;
+  color:#333;
+  border:1px solid #666;
+  padding:2px;
+  font-size:12px;
+}
+
+#color-picker {
+  background:#ccc;
+  width:380px;
+  padding:13px 0;
+  display:none;
+}
+
+#picker-picker {
+  background:#f00 url(picker.png) no-repeat;
+  margin-left:13px;
+  width:256px;
+  height:256px;
+  float:left;
+}
+
+#picker-hue, #picker-sat, #picker-val {
+  margin-left:13px;
+  width:20px;
+  height:256px;
+  float:left;
+}
+
+#picker-hue {background:#f00 url(hue.png);}
+#picker-sat {background:#f00 url(sat.png);}
+#picker-val {background:#f00 url(val.png);}
+
+#picker-fields {
+  clear:both;
+  font-family:Monaco,"Lucida Sans Typewriter","Bitstream Vera Sans Mono","Lucida Console",Lucida,"Courier New",Courier,monospace;
+  font-size:12px;
+  margin:0 13px;
+  padding-top:13px;
+  color:#545253;
+}
